@@ -187,3 +187,16 @@ body{
     font-family: Manrope;
     font-weight: 500;
 }
+#margin-test{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+li::marker{
+    color: blue;
+}
