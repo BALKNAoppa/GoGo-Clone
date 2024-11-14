@@ -171,6 +171,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #f0efef;
+    opacity: 0.4;
+}
+#share-icon1{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+#share-icon-container{
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 #business-botton {
     font-size: 12px; 
@@ -193,6 +206,36 @@ body {
     text-decoration: none;
     color: black;
     opacity: 0.4;
+    font-size: 13px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+#share-number{
+    font-family: Manrope;
+    text-decoration: none;
+    color: black;
+    opacity: 0.4;
+}
+#coffee-image-subsection{
+    
+}
+#coffee-img{
+    width: 542.5px;
+    height: 385px;
+    margin-left: 8px;
+}
+#news-main-container{
+    width: 1100px;
+    height: 333px;
+    border: 0.5px solid black;
+    margin-top: 30px;
+    display: flex;
+    
+}
+.size{
+    width: 278.75px;
+    height: 283px;
+    border: 0.5px solid black;
 }
 #main-footer-container {
     width: 100vw;
@@ -204,7 +247,6 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-
 #footer-section {
     width: 1180px;
     height: 147.65px;
