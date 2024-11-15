@@ -359,9 +359,10 @@ li::marker {
 #story-image-container{
     position: relative;
 }
-.story-img{
+.story-image{
     width: 170.8px;
     height: 235px;
+    transition: .5s;
 }
 #img-top-logo{
     position: absolute;
@@ -369,6 +370,8 @@ li::marker {
     left: 10px;
 }
 .story-text{
+    font-family: Manrope;
+    font-size: 12px;
     width: 170.8px;
     height: 50px;
     overflow: hidden;
@@ -379,7 +382,26 @@ li::marker {
 #seen-result{
     display: flex;
 }
-#see-result-section{
+#seen-result-section{
     position: absolute;
-    bottom: 0;
+    bottom: 9px;
+    left: 8px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.story-image:hover{
+    cursor: pointer;
+}
+.story-img:hover .story-text{
+    height: 240px;
+    bottom: 20%;
+}
+.story-img:hover p{
+    opacity: 1;
+    overflow: visible;
+}
+.story-img:hover .story-image{
+    transform: scale(1.05);
 }
