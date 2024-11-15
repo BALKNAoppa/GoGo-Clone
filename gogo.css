@@ -335,6 +335,9 @@ li::marker {
     height: 280.5;
     padding-left: 40px;
     padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #story-text-container{
     font-family: Manrope;
@@ -371,6 +374,7 @@ li::marker {
     overflow: hidden;
     position: absolute;
     bottom: 30px;
+    color: white;
 }
 #seen-result{
     display: flex;
