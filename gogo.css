@@ -323,3 +323,92 @@ body {
 li::marker {
     color: blue;
 }
+#main-story-container{
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    margin-top: 40px;
+}
+#story-section{
+    width: 1100px;
+    height: 280px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#story-title-container{
+    display: flex;
+    width: 1180px;
+    height: 25px;
+    align-items: center;
+}
+#gogo-title{
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+    font-family: Manrope;
+    margin: 0px;
+}
+#story-title{
+    margin: 0px;
+    width: 68.05px;
+    height: 24px;
+    background-color: #00b0f4;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Manrope;
+    padding-left: 5px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+#story-image-container{
+    width: 1100px;
+    height: 235px;
+    display: flex;
+}
+#image-container{
+    position: relative
+}
+#image-size{
+    width: 170.8px;
+    height: 235px;
+    position: relative;
+}
+#logo-container{
+    width: 170.8px;
+    height: 50px;
+    top: 8px;
+    left: 8px;
+    position: absolute;
+}
+#news-intrduction{
+    width: 150.8px;
+    height: 37px;
+    margin: 0px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    text-align: justify;
+    text-justify: inter-word;
+    overflow: hidden;
+}
+#seen-icon{
+    width: 13.5px;
+    height: 13px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+#seen-number{
+    font-size: 12px;
+    color: black;
+    position: absolute;
+    bottom: 8px;
+    left: 27px;
+}
