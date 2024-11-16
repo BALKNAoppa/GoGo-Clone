@@ -33,6 +33,7 @@ img{
     color: white;
     bottom: 150px;
     transition: .5s;
+    overflow: hidden;
 }
 p{
     width: 350px;
