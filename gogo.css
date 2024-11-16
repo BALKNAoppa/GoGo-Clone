@@ -113,7 +113,6 @@ body {
     font-size: 15px;
     font-family: Manrope;
 }
-
 .hev:hover+#hidden-hev {
     display: block;
     color: black;
@@ -123,12 +122,10 @@ body {
     transform: scale(1);
     background-color: white;
 }
-
 #coffee-ad-container {
     width: 1180px;
     height: 763px;
 }
-
 #coffee-text-section {
     width: 557.5px;
     height: 385px;
@@ -146,6 +143,9 @@ body {
 #coffee-image-section {
     width: 557.5px;
     height: 385px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
 }
 #banner-share-icon{
     width: 56.35px;
@@ -203,6 +203,23 @@ body {
     width: 542.5px;
     height: 385px;
     margin-left: 6px;
+    transition: 2s;
+}
+#coffee-hover{
+    width: 542.5px;
+    height: 385px;
+    margin-left: 6px;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+}
+#coffee-image-section:hover{
+    cursor: pointer;
+}
+#coffee-image-section:hover #coffee-hover{
+    transform: scale(1.1);
 }
 #news-main-container{
     width: 1100px;
