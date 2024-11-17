@@ -203,7 +203,7 @@ body {
     width: 542.5px;
     height: 385px;
     margin-left: 6px;
-    transition: 2s;
+    transition: 0.3s;
 }
 #coffee-hover{
     width: 542.5px;
@@ -211,15 +211,39 @@ body {
     margin-left: 6px;
     background-color: black;
     position: absolute;
-    opacity: 0.4;
+    opacity: 0;
     top: 0;
     left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+    overflow: hidden;
+}
+#hover-text{
+    color: white; 
+    position:absolute; 
+    top: 180px; 
+    left: 210px;
+    opacity: 0;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Manrope;
+    transition: 0.3s;
+}
+
+#coffee-image-section:hover #hover-text{
+    opacity: 1;
+}
+#coffee-image-section:hover #coffee-img{
+    transform: scale(1.09);
 }
 #coffee-image-section:hover{
     cursor: pointer;
+    border-radius: 3px;
 }
 #coffee-image-section:hover #coffee-hover{
-    transform: scale(1.1);
+    opacity: 0.4;
 }
 #news-main-container{
     width: 1100px;
