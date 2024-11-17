@@ -132,8 +132,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(129deg, #c40097, #d6710b); 
-    background-image: linear-gradient(-120deg, #e08100, #c90027);
+    background: linear-gradient(90deg, #f4f4f4 7%, hsla(0, 0%, 100%, .220348) 17%);
     border-radius: 10px;
 }
 #coffee-text-subsection{
@@ -219,6 +218,7 @@ body {
     justify-content: center;
     transition: .5s;
     overflow: hidden;
+    border-radius: 5px;
 }
 #hover-text{
     color: white; 
@@ -259,6 +259,41 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+.photo-container{
+    transition: 0.3s;
+}
+.news-hover{
+    width: 261.75px;
+    height: 175px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.first-news-size:hover{
+    cursor: pointer;
+}
+.first-news-size:hover .photo-container{
+    transform: scale(1.09);
+}
+.first-news-size:hover .news-hover{
+    opacity: 0.4;
+}
+.first-news-size:hover .news-hover-text{
+    opacity: 1;
+}
+.news-hover-text{
+    color: white;
+}
 .size{
     width: 278.75px;
     height: 283px;
@@ -267,6 +302,8 @@ body {
 .first-news-size{
     width: 278.75px;
     height: 283px;
+    position: relative;
+    overflow: hidden;
 }
 .news-share-size{
     display: flex;
@@ -421,7 +458,7 @@ li::marker {
     width: 170.8px;
     height: 235px;
     position: relative;
-    transition: .5s;
+    transition: .5s ease;
 }
 #logo-container{
     width: 170.8px;
