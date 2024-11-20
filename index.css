@@ -1480,7 +1480,22 @@ li::marker {
     padding-top: 5px;
     border-top: 1px solid #f1f1f1;
 }
-
+.huge-black-back{
+    width: 100vw;
+    height: 767.844px;
+    background-color: black;
+    margin-top: 120px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.black-news-container{
+    width: 1100px;
+    height: 717.844px;
+    border: 1px solid white;
+}
 /* Hover */
 
 .middle-news-container:hover{
