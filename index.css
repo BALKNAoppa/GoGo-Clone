@@ -8,11 +8,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-<<<<<<< HEAD
-    background-color: #6c6c6c;
-=======
     background-color: #d1d1d1;
->>>>>>> e635654 (test)
 }
 #header-container {
     width: 1180px;
@@ -1498,10 +1494,6 @@ li::marker {
 .black-news-container{
     width: 1100px;
     height: 717.844px;
-<<<<<<< HEAD
-    border: 1px solid white;
-=======
->>>>>>> e635654 (test)
 }
 /* Hover */
 
@@ -1517,8 +1509,6 @@ li::marker {
 .middle-news-container:hover .middle-hover-text{
     opacity: 1;
 }
-<<<<<<< HEAD
-=======
 .play-button-container{
     width: 78.69px;
     height: 30px;
@@ -1607,4 +1597,3 @@ li::marker {
     margin-top: 60px;
 }
 
->>>>>>> e635654 (test)
